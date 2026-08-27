@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the exact MEJIP release used."
+title: "AIDO-MOAT-MEJIP 1.0"
+type: software
+authors:
+  - family-names: "Kong"
+    given-names: "Sin Guan"
+repository-code: "https://github.com/kensinro/MOAT-MEJIP1.0"
+version: "1.0.0-rc.2"
+date-released: "2026-08-28"
+license: MIT
+abstract: >-
+  Evidence-bounded, auditable mechanism adjudication under partial observability
+  for patient-level cancer molecular data. This public MVP exposes the minimum
+  executable surface needed to inspect manuscript-facing MEJIP 1.0 evidence-
+  entitlement and adjudication behavior.
+keywords:
+  - bioinformatics
+  - systems biology
+  - cancer genomics
+  - mechanism inference
+  - partial observability
+  - reproducible research

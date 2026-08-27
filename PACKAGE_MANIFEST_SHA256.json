@@ -1,11 +1,26 @@
 {
-  "package": "MEJIP1_GITHUB_MVP_V1_0_RC_2026-08-28",
+  "package": "MEJIP1_GITHUB_MVP_V1_0_RC2_2026-08-28",
   "created": "2026-08-28",
   "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 67,
+      "sha256": "ebc8408915fbde52a92fb3e6acc61098879ca2ba1df6277369b46ebe94703737"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 764,
+      "sha256": "d9c8c28f4bf31ff9bed3ecf26d16b6a34b179afd8fb241795d6d6289f594ce13"
+    },
     {
       "path": "FROZEN_RESULT_REGISTRY.json",
       "bytes": 4306,
       "sha256": "8084c87a4597bb6b617f972e69cd42c43aaefaab116829475dcf9916dfc38430"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1070,
+      "sha256": "1d479fff93962c9963da1f665402201e2fd0a76b29591e8747b167cb25ad6464"
     },
     {
       "path": "LINEAGE.md",
@@ -13,14 +28,14 @@
       "sha256": "975e5bbbabb57c80f9857143645980d76b18daf3f3ab2d7f7c1f038b34ccf15d"
     },
     {
-      "path": "README.md",
-      "bytes": 2269,
-      "sha256": "c7770742cd60c799c02ea0d201c6aca89e808a603d29bb08faa0f0a398ff3756"
+      "path": "mejip_mvp.py",
+      "bytes": 20932,
+      "sha256": "c9ea50932ea6f40dcb8bb6c8118c3c1fcdfd3eb6372ba3b13d5ee294112e316c"
     },
     {
-      "path": "mejip_mvp.py",
-      "bytes": 20972,
-      "sha256": "0588e9dbaf90dd66fcd10ee674225b34dfb382bd81fb8bceffe3c238427f1171"
+      "path": "README.md",
+      "bytes": 3542,
+      "sha256": "8ea3d8f66a2626eab3a3efd1418a754b9975d1d0c35e2582bfbb1652e595a2aa"
     },
     {
       "path": "requirements.txt",
@@ -32,5 +47,6 @@
       "bytes": 282,
       "sha256": "2f72cd1e061ab3196fcbb9b440f47a8005f8259a7b29be214b6c0c55ef02d537"
     }
-  ]
+  ],
+  "manifest_rule": "PACKAGE_MANIFEST_SHA256.json intentionally excludes itself to avoid recursive hashing."
 }

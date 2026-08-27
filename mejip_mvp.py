@@ -3,7 +3,7 @@
 AIDO-MOAT-MEJIP — Public Proof Layer / Minimum Reproducibility MVP
 ==================================================================
 
-Version: 1.0.1-public-mvp-rc-2026-08-28
+Version: 1.0.0-rc.2
 
 This public file intentionally exposes only the smallest executable core needed to
 inspect the paper-facing mechanism-evidence adjudication behavior:
@@ -49,7 +49,7 @@ from pathlib import Path
 from typing import Any, Mapping, Sequence
 
 
-VERSION = "1.0.1-public-mvp-rc-2026-08-28"
+VERSION = "1.0.0-rc.2"
 
 P2_S9_MASTER_LEDGER_SHA256 = "9b70f68f3f21c99440958b2780c270a025d49600d25316cbaf4081838194c093"
 
