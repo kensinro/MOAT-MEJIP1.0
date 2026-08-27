@@ -1,0 +1,36 @@
+{
+  "package": "MEJIP1_GITHUB_MVP_V1_0_RC_2026-08-28",
+  "created": "2026-08-28",
+  "files": [
+    {
+      "path": "FROZEN_RESULT_REGISTRY.json",
+      "bytes": 4306,
+      "sha256": "8084c87a4597bb6b617f972e69cd42c43aaefaab116829475dcf9916dfc38430"
+    },
+    {
+      "path": "LINEAGE.md",
+      "bytes": 534,
+      "sha256": "975e5bbbabb57c80f9857143645980d76b18daf3f3ab2d7f7c1f038b34ccf15d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2269,
+      "sha256": "c7770742cd60c799c02ea0d201c6aca89e808a603d29bb08faa0f0a398ff3756"
+    },
+    {
+      "path": "mejip_mvp.py",
+      "bytes": 20972,
+      "sha256": "0588e9dbaf90dd66fcd10ee674225b34dfb382bd81fb8bceffe3c238427f1171"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 105,
+      "sha256": "155924cba6705939572ab0a24eaf9a8872842e3ec2dbc6a6bf15927a283c4dd6"
+    },
+    {
+      "path": "test_smoke.py",
+      "bytes": 282,
+      "sha256": "2f72cd1e061ab3196fcbb9b440f47a8005f8259a7b29be214b6c0c55ef02d537"
+    }
+  ]
+}

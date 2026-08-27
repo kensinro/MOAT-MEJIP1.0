@@ -1,0 +1,2 @@
+# Standard-library implementation; no third-party Python packages required.
+# Recommended Python: >=3.10

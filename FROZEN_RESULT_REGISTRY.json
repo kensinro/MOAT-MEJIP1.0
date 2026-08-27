@@ -1,0 +1,132 @@
+{
+  "release_identity": "MEJIP-1.0-manuscript-scope-locked-2026-08-28",
+  "scope": {
+    "included": [
+      "Practical 1",
+      "Practical 2",
+      "Practical 3",
+      "bounded Hallmark",
+      "E1 observability robustness",
+      "E2 Arm A GSVA native-task comparator"
+    ],
+    "excluded_from_mejip1": [
+      "E2 Arm B signed-network hypotheses",
+      "E3",
+      "E4",
+      "E3-FD",
+      "C1",
+      "cancer-attractor/state-transition work"
+    ],
+    "boundary": "frozen results are evidence states and audit results, not causal truth or treatment recommendations"
+  },
+  "stage11": {
+    "candidate_family": 1307,
+    "no_topology": 163,
+    "no_signed_edge": 33,
+    "no_bp_linked_signed_anchor": 81,
+    "no_resolved_nonseed_neighborhood": 274,
+    "model_ready": 756,
+    "replay_mismatches": 0,
+    "candidate_set_sha256": "b1d5bc24dc939771494d92116ccfe8cd5bbae566bab62e076ee528f974a22202"
+  },
+  "locked_metabric_transfer": {
+    "denominator": 756,
+    "SURVIVES": 17,
+    "WEAK": 61,
+    "FALSIFIED": 29,
+    "UNDERDETERMINED": 649
+  },
+  "cross_cancer_append_only": {
+    "candidates": 17,
+    "non_brca_cohorts": 17,
+    "tests": 289,
+    "global_fdr_pairs": 11,
+    "same_direction": 10,
+    "opposite_direction": 1,
+    "candidates_with_ge1_same_direction": 7,
+    "candidates_with_ge2_same_direction": 3,
+    "candidates_with_no_global_fdr_signal": 9
+  },
+  "patient_adjudication": {
+    "patients": 1097,
+    "candidates": 17,
+    "rows": 18649,
+    "SURVIVES": 285,
+    "WEAK": 12699,
+    "FALSIFIED": 686,
+    "UNDERDETERMINED": 4979,
+    "full_space_identifiable_patients": 0,
+    "mc1215": {
+      "SURVIVES": 285,
+      "WEAK": 21,
+      "FALSIFIED": 686,
+      "UNDERDETERMINED": 105,
+      "PROCESS_GAIN": 483,
+      "PROCESS_LOSS": 509,
+      "NON_IDENTIFIABLE": 105
+    }
+  },
+  "practical3_controlled_stress": {
+    "challenge_families": 8,
+    "cases_per_family": 8,
+    "cases": 64,
+    "methods": 4,
+    "native_outputs": 256,
+    "abstention_fidelity": "40/40",
+    "decisive_falsifier_retention": "16/16",
+    "contradiction_visibility": "40/40",
+    "dependency_decision_change_rate": "0/8",
+    "order_invariance": "24/24",
+    "unsupported_positivity": "0/16",
+    "adversarial_reproduction": "24/24"
+  },
+  "hallmark_append_only": {
+    "candidate_hallmark_tests_per_representation": 850,
+    "primary_supported_mappings": 40,
+    "primary_candidates_mapped": 9,
+    "primary_hallmarks_mapped": 23,
+    "full_reactome_sensitivity_mappings": 59,
+    "descriptive_programs": 9,
+    "degree_null_mean": 9.14,
+    "degree_null_upper_tail_p": 0.768
+  },
+  "e1_observability": {
+    "upward_entitlement_violations": 0,
+    "upward_entitlement_denominator": 91,
+    "ceiling_violations": 0,
+    "ceiling_denominator": 51,
+    "random_single_object_downgrades": 1086,
+    "random_single_object_masks": 4000,
+    "supportive_structured_downgrade_rate": 0.0,
+    "source_essential_primary_downgrade_rate": 1.0,
+    "role_permutation_global_empirical_p": 0.497,
+    "kegg_source_essential_response": "6/10",
+    "tcga_projection_rows": 4388,
+    "tcga_projection_full_state_eligible": 0
+  },
+  "e2_arm_a_gsva": {
+    "hallmarks": 50,
+    "primary_nominations": 0,
+    "bootstrap_repeats": 1000,
+    "bootstrap_direction_consistency_threshold": 0.95,
+    "subsamples": 500,
+    "subsample_fraction": 0.8,
+    "recurrence_threshold": 0.8,
+    "interpretation": "valid native-task null; no cross-task superiority"
+  },
+  "e2_arm_b_boundary": {
+    "status": "FINAL_CLOSED_OUTSIDE_MEJIP1_FORMAL_S12",
+    "generator_execution_occurred": true,
+    "formal_s12_admitted_hypotheses": 0,
+    "solver_limit_seconds": 3600,
+    "reported_gap": 0.12,
+    "target_gap": 0.0001,
+    "wording_rule": "Do not state that signed causal-network generation never occurred; state that no qualified external signed-network hypothesis entered formal generator-agnostic adjudication in the reported MEJIP 1.0 empirical scope."
+  },
+  "tcga_reuse_boundary": {
+    "discovery_cohort": "TCGA-BRCA",
+    "patient_adjudication_cohort": "TCGA-BRCA",
+    "independent_patient_level_replication": false,
+    "guardrail": "Candidate membership was locked through METABRIC before patient-level adjudication, but the TCGA patient-state distribution is not an independent patient-level replication."
+  }
+}
