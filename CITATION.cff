@@ -6,14 +6,14 @@ authors:
   - family-names: "Kong"
     given-names: "Sin Guan"
 repository-code: "https://github.com/kensinro/MOAT-MEJIP1.0"
-version: "1.0.0-rc.2"
-date-released: "2026-08-28"
+version: "1.0.0"
+date-released: "2026-09-12"
 license: MIT
 abstract: >-
   Evidence-bounded, auditable mechanism adjudication under partial observability
-  for patient-level cancer molecular data. This public MVP exposes the minimum
-  executable surface needed to inspect manuscript-facing MEJIP 1.0 evidence-
-  entitlement and adjudication behavior.
+  for patient-level cancer molecular data. This public proof layer exposes the
+  minimum executable surface needed to inspect manuscript-facing MEJIP 1.0
+  evidence-entitlement and adjudication behavior.
 keywords:
   - bioinformatics
   - systems biology
