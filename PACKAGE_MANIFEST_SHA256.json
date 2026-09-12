@@ -1,6 +1,6 @@
 {
-  "package": "MEJIP1_GITHUB_MVP_V1_0_RC2_2026-08-28",
-  "created": "2026-08-28",
+  "package": "MEJIP1_GITHUB_MVP_V1_0_0_FINAL_2026-09-12",
+  "created": "2026-09-12",
   "files": [
     {
       "path": ".gitignore",
@@ -9,8 +9,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 764,
-      "sha256": "d9c8c28f4bf31ff9bed3ecf26d16b6a34b179afd8fb241795d6d6289f594ce13"
+      "bytes": 766,
+      "sha256": "c447f7a9a212458e2e1897dbec8aae223b16b505fb7e6e95b8c882575d286a28"
     },
     {
       "path": "FROZEN_RESULT_REGISTRY.json",
@@ -24,8 +24,8 @@
     },
     {
       "path": "LINEAGE.md",
-      "bytes": 534,
-      "sha256": "975e5bbbabb57c80f9857143645980d76b18daf3f3ab2d7f7c1f038b34ccf15d"
+      "bytes": 816,
+      "sha256": "fe1f6827d7429838061c4de4e254be624d46f3aa311bd2e7f56c738dbf0dcac8"
     },
     {
       "path": "mejip_mvp.py",
@@ -34,8 +34,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3542,
-      "sha256": "8ea3d8f66a2626eab3a3efd1418a754b9975d1d0c35e2582bfbb1652e595a2aa"
+      "bytes": 3508,
+      "sha256": "ee7f2675bcb6794a4b542f00be751f97b04ac87c238aca65f3b71a480c3eea86"
     },
     {
       "path": "requirements.txt",
@@ -48,5 +48,6 @@
       "sha256": "2f72cd1e061ab3196fcbb9b440f47a8005f8259a7b29be214b6c0c55ef02d537"
     }
   ],
-  "manifest_rule": "PACKAGE_MANIFEST_SHA256.json intentionally excludes itself to avoid recursive hashing."
+  "manifest_rule": "PACKAGE_MANIFEST_SHA256.json intentionally excludes itself to avoid recursive hashing.",
+  "release_staging_note": "Metadata-only final-release staging. Executable logic and frozen-result registry hashes are unchanged from v1.0.0-rc.2."
 }
