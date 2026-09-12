@@ -2,7 +2,7 @@
 
 **Evidence-bounded, auditable mechanism adjudication under partial observability for patient-level cancer molecular data.**
 
-**Repository status:** `v1.0.0-rc.2` — public MVP release candidate, 2026-08-28.  
+**Repository status:** `v1.0.0` — final public proof-layer release, 2026-09-12.  
 **Purpose:** minimum executable reproducibility surface for the manuscript-facing MEJIP 1.0 adjudication logic.
 
 MEJIP is designed for a problem that pathway scores or ranked candidate lists do not by themselves solve: **when does the available patient evidence actually entitle a mechanistic conclusion, and when must the result remain unresolved?**
@@ -35,7 +35,7 @@ The code does **not** establish causal truth, universal biological superiority, 
 
 ## Quick start
 
-Requires Python 3.10 or later; the MVP uses only the Python standard library.
+Requires Python 3.10 or later; the proof layer uses only the Python standard library.
 
 ```bash
 python mejip_mvp.py self-test
@@ -54,7 +54,7 @@ A successful self-test is an implementation-regression check. It is **not** biol
 
 `FROZEN_RESULT_REGISTRY.json` stores manuscript-scope verification counts and boundaries. `PACKAGE_MANIFEST_SHA256.json` records byte sizes and SHA256 values for the public package files.
 
-No private patient-level data are bundled. No DOI is asserted for this release candidate. The final archival DOI, if created, should correspond to the exact frozen `v1.0.0` release rather than to an intermediate release candidate.
+No private patient-level data are bundled. No archival DOI is asserted in this repository unless and until a public archival service has actually minted and exposed one for the final `v1.0.0` release.
 
 ## MEJIP 1.0 scope boundary
 
@@ -64,7 +64,7 @@ The following are outside this public MEJIP 1.0 package: E2 Arm B signed-network
 
 ## Citation
 
-Citation metadata are provided in `CITATION.cff`. The final manuscript citation and archival DOI should be added only after the manuscript/release identity is frozen. Until then, cite this repository and the exact release/tag used.
+Citation metadata are provided in `CITATION.cff`. Cite the exact release/tag used. If an archival DOI is minted for `v1.0.0`, use the verified DOI from the archival record rather than a guessed or placeholder identifier.
 
 ## License
 
