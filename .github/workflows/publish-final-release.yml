@@ -1,0 +1,32 @@
+name: M14B Publish final v1.0.0
+
+on:
+  push:
+    branches:
+      - m14b-release-automation-2026-09-12
+
+permissions:
+  contents: write
+
+jobs:
+  publish-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout release-automation branch
+        uses: actions/checkout@v4
+
+      - name: Publish final v1.0.0 release if absent
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          if gh release view v1.0.0 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "v1.0.0 already exists; no action required."
+            exit 0
+          fi
+          gh release create v1.0.0 \
+            --repo "$GITHUB_REPOSITORY" \
+            --target dcc942c3668d17f92ef6d1b7327f85373058fcf9 \
+            --title "AIDO-MOAT-MEJIP 1.0 — Final v1.0.0" \
+            --notes-file FINAL_RELEASE_NOTES.md \
+            --latest
